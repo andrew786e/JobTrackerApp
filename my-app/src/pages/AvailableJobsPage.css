@@ -1,0 +1,11 @@
+.selectedJobs {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.alignTable {
+    margin: auto;
+    width: 80%;
+}
