@@ -14,11 +14,11 @@ const people = [
 
 
 export const ListOfCompanies = () => {
-    const listItems = people.map(person => 
+    const listItems : JSX.Element[] = people.map(person => 
         <li className = "companyItem">{person.companyName} <ViewButton/></li>
     ) ;
 
     return (
-        <ul>{listItems}</ul>
+        <ul className="companyItemHolder">{listItems}</ul>
     )
 }

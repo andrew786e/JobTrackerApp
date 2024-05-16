@@ -2,6 +2,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import './App.css';
 import { AvailableJobsPage } from './pages/AvailableJobsPage';
 import { HomePage } from './pages/HomePage';
+import { LoginPage } from './pages/LoginPage';
 
 function App() {
 
@@ -13,6 +14,10 @@ function App() {
     {
       path: "/CompanyInformation" ,
       element: <AvailableJobsPage/>
+    },
+    {
+      path: "/Login",
+      element: <LoginPage/>
     }
   ]) ;
   

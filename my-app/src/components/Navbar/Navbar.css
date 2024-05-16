@@ -1,0 +1,25 @@
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px ;
+    background-color: #ADD8E6;
+    color: #fff;
+    font-size: 15px;
+    padding-left: 50px;
+}
+
+.navbar-navigation{
+    margin: 0px ;
+    width: 30% ;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.navbar-header{
+    font-weight: bold ;
+    font-size: 20px;
+}

@@ -1,5 +1,6 @@
 import puppeteer from "puppeteer";
-
+import { fetchData } from "../helpers/scriptCommunicator";
+import { ScriptData } from "../interface/scriptDataInterface";
 (
     async () => {
         // Launch the brower and open a new blank page
@@ -46,5 +47,12 @@ import puppeteer from "puppeteer";
                 break ;
             }
         }
+
+        const jobJsonArray : ScriptData = {
+            jobsPosted: allJobsPosted 
+        }
+
+        console.log(jobJsonArray) ;
+        fetchData(jobJsonArray) ;
     }
 )() ;
